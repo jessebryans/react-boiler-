@@ -1,1 +1,18 @@
-console.log('hello')
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+class App extends React.Component {
+	constructor() {
+		super();
+	}
+	render() {
+		return (
+			<div>
+				<p>pizza</p>
+			</div>
+
+		)
+	}
+}
+
+ReactDOM.render(<App />, document.getElementById('app'))

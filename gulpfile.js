@@ -43,7 +43,7 @@ gulp.task('bs', () => {
 });
 
 gulp.task('default', ['bs','js','styles'], () => {
-    gulp.watch('src/**/*.js',['js']);
-    gulp.watch('src/**/*.scss',['styles']);
+    gulp.watch('dev/**/*.js',['js']);
+    gulp.watch('dev/**/*.scss',['styles']);
     gulp.watch('./public/styles/style.css',reload);
 });
